@@ -1,0 +1,29 @@
+.heading1 {
+  color: #1b4cb8;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 65px;
+  margin-top: 120px;
+  margin-left: 170px;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  width: 10%;
+}
+.description {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 170px;
+  width: 35%;
+  line-height: 30px;
+  font-weight: bolder;
+  color: rgb(71, 71, 71);
+  margin-top: 40px;
+  height: auto;
+  text-align: justify;
+  font-size: 22px;
+}
+.home_img {
+  width: 600px;
+  padding: 0;
+  float: right;
+}

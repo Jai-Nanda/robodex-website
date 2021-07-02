@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/Navbar'
+import HeroSection from './components/pages/HeroSection'
+import About from './components/pages/About'
+import Events from './components/pages/Events'
+import Members from './components/pages/Members'
+import Contact from './components/pages/Contact'
+import Gallery from './components/pages/Gallery'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+      <Navbar/>
+        <Switch>
+          <Route path='/' exact component={HeroSection} />
+          <Route path='/About' exact component={About} />
+          <Route path='/Events' exact component={Events} />
+          <Route path='/Members' exact component={Members} />
+          <Route path='/Contact' exact component={Contact}/>
+          <Route path='/Gallery' exact component={Gallery} />
+        </Switch>
+      </Router>
+      </>
+  )
 }
 
 export default App;
+

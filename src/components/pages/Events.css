@@ -1,0 +1,120 @@
+.members {
+  background-color: white;
+}
+
+.head1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #1b4cb8;
+  margin-top: 10px;
+  text-align: center;
+}
+.head2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #1b4cb8;
+  margin-top: 10px;
+  text-align: center;
+}
+.classe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.state {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 15px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btn-submit:hover {
+  cursor: pointer;
+}
+.learn2,
+.learn1 {
+  background-color: #1b4cb8;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.learn2 {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+.learn1 {
+  margin-top: 45px;
+  margin-left: 110px;
+}
+.events {
+  background-color: white;
+  width: 100%;
+}
+.heading5 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carding {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.event1 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid rgb(206, 204, 204);
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 360px;
+}
+.event2 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid rgb(206, 204, 204);
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.event2 btn {
+  margin: 0;
+}
+
+.paragraph,
+.salutation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(44, 44, 44);
+
+  align-self: center;
+  justify-content: center;
+  width: 82%;
+  font-weight: bolder;
+}
+.salutation {
+  margin-top: 50px;
+}
+.link_pdf {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}

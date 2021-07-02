@@ -1,0 +1,53 @@
+.heading2 {
+  display: block;
+  color: #1b4cb8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 0px;
+}
+h1 {
+  font-weight: 900;
+}
+p {
+  font-weight: 600;
+}
+.para1 {
+  margin-left: 140px;
+  margin-bottom: 0px;
+  width: 40%;
+  color: rgb(44, 44, 44);
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+.para2 {
+  font-size: 18px;
+  margin-left: 140px;
+  color: rgb(44, 44, 44);
+  margin-bottom: 0px;
+  width: 50%;
+  text-align: justify;
+}
+.para3 {
+  font-size: 18px;
+  margin-left: 140px;
+  margin-bottom: 0px;
+  width: 40%;
+  color: rgb(44, 44, 44);
+  text-align: justify;
+}
+.image_about {
+  float: right;
+  margin-top: 40px;
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 130px;
+}
+.about {
+  background-color: white;
+  margin-top: 300px;
+  width: 100%;
+}

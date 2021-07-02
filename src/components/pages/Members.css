@@ -1,0 +1,93 @@
+.flex-event {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+}
+.incharge {
+  font-size: 20px;
+}
+.name1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.flxs1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flxs2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+.mem img {
+  padding-top: 20px;
+  width: 150px;
+}
+.mem h4 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.mem p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.carding {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.cardflex2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.cardflex1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.class {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.membername {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card1 {
+  background-color: white;
+  width: 250px;
+  height: auto;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgb(206, 204, 204);
+  margin: 15px;
+}
+.heading3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-family: "Montserrat", sans-serif;
+}

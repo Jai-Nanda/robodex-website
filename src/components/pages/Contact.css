@@ -1,0 +1,46 @@
+.heading4 {
+  padding-bottom: 40px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-weight: 600;
+}
+.contact_form {
+  display: flex;
+  justify-content: center;
+}
+.school_info {
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  min-height: 400px;
+  margin-left: 40px;
+}
+.school_info h4 {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.school_info h3 {
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.school_info h2 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.school_info b {
+  color: #1b4cb8;
+}
+.school_info p {
+  font-size: 22px;
+}
+.map > iframe {
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.1);
+  border-radius: 50px;
+  border: none;
+  width: 450px;
+  height: 450px;
+}
