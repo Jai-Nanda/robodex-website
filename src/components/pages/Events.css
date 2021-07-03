@@ -119,3 +119,19 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
+@media only screen and (max-width: 960px) {
+  .paragraph,
+  .salutation {
+    margin: 0;
+    width: 360px;
+  }
+  .carding {
+    flex-direction: column;
+  }
+  .event1 {
+    width: 360px;
+  }
+  .event2 {
+    flex-direction: column;
+  }
+}

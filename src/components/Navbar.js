@@ -1,60 +1,67 @@
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.webp';
 import './Navbar.css';
 
 const Navbar = () => {
-  const burger = document.getElementById('burgers');
-  const navbar = document.querySelector('.navbar');
-  const navList = document.querySelector('.nav-list');
-  console.log(burger);
-  // burger.addEventListener('click', () => {
-    // navList.classList.toggle('v-class-resp');
-    // navbar.classList.toggle('h-nav-resp');
-  // });
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
     return (
         <>
-            <nav className="navbar h-nav-resp">
-            <img src={logo} alt="Logo" className="robo" />
-                <ul className="nav-list v-class-resp">
+            <nav className="navbar">
+            <img src={logo} alt="Logo" className="robo" onClick={closeMobileMenu}/>
+            <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>      
+          <ul className={click ? 'nav-menu active' : 'nav-list'}>
                 <li><Link
                 to='/'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
                 >Home</Link></li>
                 <li><Link
                 to='/About'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
               >About</Link></li>
               <li><Link
                 to='/Events'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
               >Events</Link></li>
               <li><Link
                 to='/Members'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
             >Members</Link></li>
             <li><Link
                 to='/Register'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
             >Register</Link></li>
                 <li><Link
                 to='/Contact'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
             >Contact</Link></li>
             <li><Link
                 to='/Gallery'
-                className='nav-links'
+                className='nav-links' onClick={closeMobileMenu}
               >Gallery</Link></li>
                 </ul>
-          <div className="burger" id="burgers">
-            <div className="line"></div>
-            <div class="line"></div>
-            <div className="line"></div>
-          </div>
         </nav>
         </>
   )
 }
-const burger = document.getElementById('burgers');
-console.log(burger);
-
 export default Navbar

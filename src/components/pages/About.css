@@ -54,3 +54,25 @@ p {
   margin-top: 300px;
   width: 100%;
 }
+@media only screen and (max-width: 960px) {
+  .image_about {
+    padding-top: 20px;
+    margin: 0;
+    width: 360px;
+  }
+  .para1 {
+    padding-top: 400px;
+    margin: 0;
+    width: 360px;
+  }
+  .para2 {
+    padding-top: 40px;
+    margin: 0;
+    width: 360px;
+  }
+  .para3 {
+    padding-top: 40px;
+    margin: 0;
+    width: 360px;
+  }
+}

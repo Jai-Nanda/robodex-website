@@ -27,3 +27,21 @@
   padding: 0;
   float: right;
 }
+@media screen and (max-width: 960px) {
+  .home_img {
+    margin: 0;
+    margin-top: 70px;
+    width: 360px;
+    padding: 0;
+  }
+  .heading1 {
+    margin: 0;
+    margin-top: 120px;
+    padding: 0;
+    width: 360px;
+  }
+  .description {
+    margin: 0;
+    width: 360px;
+  }
+}

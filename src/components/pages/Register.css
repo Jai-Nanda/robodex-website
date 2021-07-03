@@ -1,10 +1,17 @@
+body {
+  width: 100vw;
+}
 .google_form {
   height: 100vh;
 }
 .google_form > iframe {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -5%);
+  margin-left: 330px;
   height: 100vh;
+}
+@media only screen and (max-width: 960px) {
+  .google_form > iframe {
+    height: 100vh;
+    margin: 0;
+    width: 360px;
+  }
 }

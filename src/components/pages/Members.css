@@ -122,3 +122,35 @@
   padding: 20px;
   margin: 15px;
 }
+@media only screen and (max-width: 960px) {
+  .member_container1 {
+    flex-direction: column;
+  }
+  .member_container2 {
+    flex-direction: column;
+  }
+  .member_card1 {
+    width: 360px;
+    margin: 0;
+  }
+  .member_card2 {
+    margin: 0;
+    width: 360px;
+  }
+  .cardflex1 {
+    margin: 0;
+    flex-direction: column;
+  }
+  .cardflex2 {
+    flex-direction: column;
+  }
+  .card1 {
+    margin: 0;
+    width: 360px;
+  }
+  #card_s {
+    margin: 0;
+    width: 360px;
+    margin-top: 20px;
+  }
+}
