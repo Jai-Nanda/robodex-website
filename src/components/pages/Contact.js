@@ -27,9 +27,19 @@ const Contact = () => {
           </p>
           <ul class="contact_numbers">
             <li>Pooja Batra: 9810164182 </li>
-            <li>Parv Narang: 9910066759</li>
           </ul>
         </div>
+      </div>
+      <div className="form">
+        <h1 className="contact">Contact Form</h1>
+        <form action="#">
+          <label>Full Name</label>
+          <input type="text" placeholder="Peter Parker" />
+          <label>Class / Section</label>
+          <input type="text" placeholder="9E" />
+          <label>Your Query</label>
+          <textarea name="desc" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        </form>
       </div>
     </>
   );

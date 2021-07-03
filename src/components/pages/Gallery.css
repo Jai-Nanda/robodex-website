@@ -1,6 +1,7 @@
 .gallery {
   padding-top: 20px;
   margin: 10px 20px;
+  overflow: hidden;
 }
 .gallery img {
   width: 400px;
@@ -13,6 +14,7 @@
 .gallery img:hover {
   filter: brightness(85%);
   transform: scale(1.02);
+  object-fit: cover;
 }
 /* .gallery {
   position: fixed;

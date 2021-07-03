@@ -18,12 +18,15 @@ p {
   margin-bottom: 0px;
   width: 40%;
   color: rgb(44, 44, 44);
+  font-weight: 600;
   margin-top: 50px;
   font-size: 20px;
   text-align: justify;
 }
 .para2 {
   font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 140px;
   color: rgb(44, 44, 44);
   margin-bottom: 0px;

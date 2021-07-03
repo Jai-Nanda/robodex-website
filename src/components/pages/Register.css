@@ -1,0 +1,10 @@
+.google_form {
+  height: 100vh;
+}
+.google_form > iframe {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  height: 100vh;
+}
