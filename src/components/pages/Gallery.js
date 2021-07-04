@@ -1,27 +1,11 @@
 import React from 'react'
 import './Gallery.css'
-// import './lightbox.min.css'
 import pic1 from './imgs/pic1.webp'
 import pic2 from './imgs/pic2.JPG'
 import pic3 from './imgs/pic3.JPG'
 const Gallery = () => {
-    // const modal = document.querySelector('.modal');
-    // const preview = document.querySelectorAll('.gallery')
-    // const original = document.querySelector('.full-img');
-    // const imgText = document.querySelector('.caption')
-    // preview.forEach((preview) => {
-    //     preview.addEventListener("click", () => {
-    //         modal.classList.add("open")
-    //     })
-    // })
-    // modal.addEventListener("click", (e) => {
-    //     if (e.target.classList.contains("modal")) {
-    //         modal.classList.remove("open")
-    //     }
-    // })
     return (
         <>
-            {/* <script src="./dist/js/lightbox-plus-jquery.min"></script> */}
             <div className="gallery">
                 <a href={pic1}><img src={pic1} alt="lmao" className="pic1"/></a>
                 <a href="https://static.wixstatic.com/media/7d48fd_2b3072c950514ee5988c9b9ec19ed358~mv2.png/v1/fit/w_320,h_213,q_90/7d48fd_2b3072c950514ee5988c9b9ec19ed358~mv2.webp"><img src="https://static.wixstatic.com/media/7d48fd_2b3072c950514ee5988c9b9ec19ed358~mv2.png/v1/fit/w_320,h_213,q_90/7d48fd_2b3072c950514ee5988c9b9ec19ed358~mv2.webp" alt="lmao" className="pic1"/></a>
@@ -36,19 +20,6 @@ const Gallery = () => {
                 <a href="https://static.wixstatic.com/media/7d48fd_14f0921148bf4793b4b80b7bc6cfba56~mv2.jpg/v1/fit/w_716,h_417,q_90/7d48fd_14f0921148bf4793b4b80b7bc6cfba56~mv2.webp"><img src="https://static.wixstatic.com/media/7d48fd_14f0921148bf4793b4b80b7bc6cfba56~mv2.jpg/v1/fit/w_716,h_417,q_90/7d48fd_14f0921148bf4793b4b80b7bc6cfba56~mv2.webp"alt="lmao" className="pic1"/></a>
                 <a href={pic2}><img src={pic2} alt="lmao" className="pic1"/></a>
             </div>
-            
-            {/* <div className="gallery">
-                <img src={pic1} alt="lmao" className="pic1"/>
-                <img src={pic1} alt="lmao" className="pic1"/>
-                <img src={pic1} alt="lmao" className="pic1"/>
-                <img src={pic1} alt="lmao" className="pic1"/>
-                <img src={pic1} alt="lmao" className="pic1"/>
-                <img src={pic1} alt="lmao" className="pic1"/>
-            </div>
-            <div className="modal">
-                <img src={pic1} alt="" className="full-img" />
-                <p className="caption">Jai Nanda</p>
-            </div> */}
         </>
     )
 }

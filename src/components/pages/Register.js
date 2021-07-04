@@ -12,7 +12,7 @@ const Register = () => {
                 </div>
             </div>
         <div className="google_form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczLHdaDEGDdkcATe4E9cSb-NVW-DPiSKMLmC5tcthXtYXeTg/viewform?embedded=true" width="640" height="538" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe title="hehe" src="https://docs.google.com/forms/d/e/1FAIpQLSczLHdaDEGDdkcATe4E9cSb-NVW-DPiSKMLmC5tcthXtYXeTg/viewform?embedded=true" width="640" height="538" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
             </>
     )
