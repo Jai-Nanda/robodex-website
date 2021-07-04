@@ -14,39 +14,45 @@ p {
   font-weight: 600;
 }
 .para1 {
-  margin-left: 140px;
-  margin-bottom: 0px;
-  width: 40%;
+  width: 80%;
   color: rgb(44, 44, 44);
   font-weight: 600;
+  margin-left: 100px;
   margin-top: 50px;
   font-size: 20px;
-  text-align: justify;
+  text-align: center;
+  line-height: 30px;
+}
+.para1 b {
+  color: #1b4cb8;
+  font-weight: 600;
 }
 .para2 {
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 140px;
+  width: 80%;
   color: rgb(44, 44, 44);
-  margin-bottom: 0px;
-  width: 50%;
-  text-align: justify;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
 }
 .para3 {
-  font-size: 18px;
-  margin-left: 140px;
-  margin-bottom: 0px;
-  width: 40%;
+  width: 80%;
   color: rgb(44, 44, 44);
-  text-align: justify;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
 }
 .image_about {
-  float: right;
-  margin-top: 40px;
-  width: 500px;
-  height: 300px;
-  margin-left: 40px;
+  width: 420px;
+  height: 250px;
+  margin-left: 440px;
+  margin-top: 20px;
+  border-radius: 25px;
   margin-right: 130px;
 }
 .about {

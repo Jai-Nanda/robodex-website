@@ -26,11 +26,14 @@
 .state {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
   padding: 15px;
   line-height: 25px;
   font-size: 18px;
   font-weight: 700;
+}
+.state-exc {
+  line-height: 35px;
 }
 .btn-submit:hover {
   cursor: pointer;
@@ -44,14 +47,21 @@
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+  transition: 0.6s ease-out;
 }
 .learn2 {
   margin-top: 20px;
-  margin-left: 120px;
+  margin-left: 140px;
 }
 .learn1 {
-  margin-top: 45px;
+  margin-top: 25px;
   margin-left: 110px;
+}
+.learn1:hover {
+  margin-left: 130px;
+}
+.learn2:hover {
+  margin-left: 160px;
 }
 .events {
   background-color: white;
@@ -102,13 +112,14 @@
 .salutation {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  text-align: justify;
-  margin-left: 100px;
+  text-align: center;
+  margin-left: 115px;
   align-self: center;
   color: rgb(44, 44, 44);
   justify-content: center;
   width: 82%;
-  margin-right: 70px;
+  margin-right: 85px;
+  line-height: 30px;
 }
 .salutation {
   margin-top: 50px;

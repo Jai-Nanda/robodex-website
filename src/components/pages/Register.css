@@ -8,6 +8,19 @@ body {
   margin-left: 330px;
   height: 100vh;
 }
+.discord {
+  margin-left: 430px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.discord a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #1b4cb8;
+  margin-top: 13px;
+  margin-left: 10px;
+}
 @media only screen and (max-width: 960px) {
   .google_form > iframe {
     height: 100vh;

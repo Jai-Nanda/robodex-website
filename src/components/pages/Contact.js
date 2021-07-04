@@ -18,8 +18,8 @@ const Contact = () => {
           <h2>
             <b>Phone: </b> 011 2507 4472
           </h2>
-          <h2>
-            <b>Email: </b>mail@dpsdwarka.com
+          <h2 id="mail">
+            <b>Email: </b>robodexclubdpsdwarka@gmail.com
           </h2>
           <p class="infoss">
             For any queries regarding ROBODEX, feel free to contact any of the
@@ -34,11 +34,15 @@ const Contact = () => {
         <h1 className="contact">Contact Form</h1>
         <form action="#">
           <label>Full Name</label>
-          <input type="text" placeholder="Peter Parker" />
+          <input type="text" placeholder="Peter Parker" name="name" id="name"/>
           <label>Class / Section</label>
-          <input type="text" placeholder="9E" />
+          <input type="text" placeholder="9E" name="name" id="name"/>
           <label>Your Query</label>
-          <textarea name="desc" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <textarea name="desc" id="" cols="30" rows="10" placeholder="Message"></textarea> 
+          <button type="submit">Submit</button>
+          <div id="status" class="success">
+            <h5>Thanks ! Your Response has been Recorded</h5>
+          </div>
         </form>
       </div>
     </>

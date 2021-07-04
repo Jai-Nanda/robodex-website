@@ -16,6 +16,7 @@
   width: 400px;
   min-height: 400px;
   margin-left: 40px;
+  margin-top: 15px;
 }
 .school_info h4 {
   font-size: 22px;
@@ -31,7 +32,10 @@
 .school_info h2 {
   padding-bottom: 20px;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
+}
+#mail {
+  width: 1%;
 }
 .school_info b {
   color: #1b4cb8;
@@ -49,7 +53,7 @@
   border-radius: 50px;
   border: none;
   width: 450px;
-  height: 450px;
+  height: 500px;
 }
 .contact {
   color: #1b4cb8;
@@ -73,6 +77,8 @@ form input {
   outline: none;
   border-radius: 10px;
   border: 2px solid rgb(58, 58, 58);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   margin-left: 13px;
 }
 form textarea {
@@ -80,13 +86,62 @@ form textarea {
   padding: 13px;
   font-size: 18px;
   outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   border-radius: 10px;
-  border: 2px solid rgb(58, 58, 58);
+  border: 2px solid rgb(80, 80, 80);
   margin-left: 13px;
+  resize: none;
 }
 form label {
   font-family: "Montserrat", sans-serif;
   font-size: 21px;
+  color: rgb(44, 44, 44);
   font-weight: 600;
   padding: 10px;
+}
+form button {
+  background-color: #1b4cb8;
+  border: none;
+  outline: none;
+  margin-left: 160px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 50%;
+  margin-top: 15px;
+  transition: 0.6s ease-out;
+  margin-bottom: 50px;
+}
+form button:hover {
+  margin-left: 175px;
+}
+.success {
+  background-color: rgb(129, 255, 129);
+  color: rgb(26, 26, 26);
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  width: 70%;
+  margin-left: 100px;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
