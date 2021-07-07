@@ -8,7 +8,7 @@ const Register = () => {
             <div className="social">
                 <div className="discord">
                     <img src={discord} alt="Discord png" />
-                    <a href="https://discord.gg/ZRByU25r" target="_blanck">Click here to Join Our Discord Server</a>
+                    <a href="https://discord.gg/ZRByU25r" target="_blanck">Join Our Discord Server</a>
                 </div>
             </div>
         <div className="google_form">
