@@ -8,6 +8,7 @@ import pritesh from './imgs/pritesh.jpg'
 import animesh from './imgs/animesh.jpg'
 import raghav_g from './imgs/raghav_g.jpg'
 import raghav_b from './imgs/raghav_b.jpg'
+import vedant from './imgs/vedant.jpg'
 import jai from './imgs/jai_1.jpg'
 const Members = () => {
     return (
@@ -49,7 +50,7 @@ const Members = () => {
           <p class="position">Secretary</p>
         </div>
         <div class="member_card2">
-          <img src={pritesh} alt="Vedant Arora" class="shounak_b"/>
+          <img src={vedant} alt="Vedant Arora" class="shounak_b"/>
           <p class="member_name2">Vedant Arora</p>
           <p class="position">Joint Secretary</p>
         </div>
@@ -97,9 +98,7 @@ const Members = () => {
       <div class="card1">
         <h2 class="class">X</h2>
         <p class="membername">Suyash Chauhan</p>
-        <p class="membername">Raghav Grover</p>
         <p class="membername">Keshav Sethi</p>
-        <p class="membername">Arsh Handa</p>
         <p class="membername">Anant Choudhary</p>
       </div>
     </div>

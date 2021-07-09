@@ -10,9 +10,9 @@
   height: 300px;
   cursor: pointer;
   border-radius: 20px;
+  overflow: hidden;
 }
 .gallery img:hover {
   filter: brightness(85%);
   transform: scale(1.02);
-  object-fit: cover;
 }

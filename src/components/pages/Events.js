@@ -7,7 +7,7 @@ const Events = () => {
     <div class="flex-event">
       <p class="salutation">Greetings!</p>
       <p class="paragraph">In these trying times it is vital for each and everyone of us to keep learning and being
-        productive. So, ‘Robodex’- the robotics club of DPS Dwarka is back with ROBODEX 2021. A vivacious event which,
+        productive. So, ‘Robodex’- the robotics club of DPS Dwarka is back with <b>ROBODEX 2021</b>. A vivacious event which,
         through its assorted activities, creates an abstract where theory converges into practice and forms experience.
         This year, the event will witness participation of students from classes 6th to 12th</p>
     </div>

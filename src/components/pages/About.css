@@ -14,51 +14,43 @@ p {
   font-weight: 600;
 }
 .para1 {
-  width: 80%;
   color: rgb(44, 44, 44);
   font-weight: 600;
-  margin-left: 100px;
+  padding: 0 100px;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  line-height: 30px;
+  line-height: 32px;
 }
 .para1 b {
   color: #1b4cb8;
-  font-weight: 600;
+  font-weight: 900;
 }
 .para2 {
-  width: 80%;
   color: rgb(44, 44, 44);
+  padding: 0 100px;
   font-weight: 600;
-  margin-left: 100px;
   margin-top: 20px;
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 32px;
+  font-size: 22px;
   text-align: center;
 }
 .para3 {
-  width: 80%;
   color: rgb(44, 44, 44);
   font-weight: 600;
-  margin-left: 100px;
   margin-top: 20px;
-  line-height: 30px;
-  font-size: 20px;
+  padding: 0 100px;
+  line-height: 32px;
+  font-size: 22px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .image_about {
-  width: 420px;
-  height: 250px;
-  margin-left: 440px;
-  margin-top: 20px;
-  border-radius: 25px;
-  margin-right: 130px;
-}
-.about {
-  background-color: white;
-  margin-top: 300px;
-  width: 100%;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 @media only screen and (max-width: 960px) {
   .image_about {

@@ -61,7 +61,7 @@
 }
 .position {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 20px;
@@ -97,7 +97,7 @@
   margin-top: 10px;
 }
 .cardflex2 {
-  padding-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }

@@ -1,37 +1,7 @@
-body {
-  height: 100vh;
-  width: 100vw;
+.form {
+  overflow: hidden;
 }
-.google_form {
-  width: 100vw;
-  height: 100vh;
-}
-.google_form > iframe {
-  margin-left: 250px;
-  height: 100vh;
-  margin-top: 70px;
-  width: 800px;
-}
-.discord {
-  margin-left: 430px;
-  display: flex;
-  margin-bottom: 20px;
-}
-.discord img {
-  margin-left: 50px;
-}
-.discord a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  text-decoration: none;
-  color: #1b4cb8;
-  margin-top: 13px;
-  margin-left: 20px;
-}
-@media only screen and (max-width: 960px) {
-  .google_form > iframe {
-    height: 100vh;
-    margin: 0;
-    width: 360px;
-  }
+.form > iframe {
+  margin: 40px 350px;
+  overflow: hidden;
 }

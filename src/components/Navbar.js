@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar">
-            <img src={logo} alt="Logo" className="robo" onClick={closeMobileMenu}/>
+            <a href="/"><img src={logo} alt="Logo" className="robo" onClick={closeMobileMenu}/></a>
             <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>      

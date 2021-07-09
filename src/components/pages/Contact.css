@@ -16,7 +16,7 @@
   width: 400px;
   min-height: 400px;
   margin-left: 40px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .school_info h4 {
   font-size: 22px;
@@ -52,8 +52,8 @@
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.1);
   border-radius: 50px;
   border: none;
-  width: 450px;
-  height: 500px;
+  width: 470px;
+  height: 550px;
 }
 .contact {
   color: #1b4cb8;
@@ -104,7 +104,7 @@ form button {
   background-color: #1b4cb8;
   border: none;
   outline: none;
-  margin-left: 160px;
+  margin: 0 200px;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -118,5 +118,24 @@ form button {
   margin-bottom: 50px;
 }
 form button:hover {
-  margin-left: 175px;
+  margin-left: 220px;
+}
+.social i {
+  color: #1b4cb8;
+  padding: 22px;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  margin-left: 30px;
+}
+.social i:hover {
+  color: rgb(44, 44, 44);
+  transform: scale(1.1);
+}
+.social {
+  padding: 0 430px;
+}
+.social h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
