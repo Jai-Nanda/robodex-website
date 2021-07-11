@@ -16,7 +16,7 @@ const Contact = () => {
             110078
           </h2>
           <h2>
-            <b>Phone: </b> 011 2507 4472
+            <b>Phone: </b> 011 35045111
           </h2>
           <h2 id="mail">
             <b>Email: </b>robodexclubdpsdwarka@gmail.com
@@ -27,25 +27,27 @@ const Contact = () => {
           </p>
           <ul class="contact_numbers">
             <li>Pooja Batra: 9810164182 </li>
-            <li>Shikha Sethi: 000000000 </li>
+            <li>Shikha Sethi: 9818807952</li>
           </ul>
         </div>
       </div>
-        <h1 className="contact">Contact Form</h1>
-        <form action="https://formspree.io/f/mdoydylb" method="POST">
-          <label>Full Name</label>
-        <input type="text" placeholder="Peter Parker" name="name" id="name" />
-        <label>Email</label>
-          <input type="email" placeholder="peterparker@gmail.com" name="email" id="name"/>
-          <label>Class / Section</label>
-          <input type="text" placeholder="9E" name="class/section" id="name"/>
-          <label>Message</label>
-          <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea> 
+      <h1 className="contact">Contact Form</h1>
+      <div className="contact_forms">
+        <form action="https://formspree.io/f/mrgragyb" method="POST">
+          <label>Full Name (required)</label>
+        <input type="text" placeholder="Peter Parker" name="_subject" id="name" required/>
+        <label>Email (required)</label>
+          <input type="email" placeholder="peterparker@gmail.com" name="email" id="name" required/>
+          <label>Class / Section (required)</label>
+          <input type="text" placeholder="9E" name="class/section" id="name" required/>
+          <label>Message (required)</label>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea> 
           <button type="submit">Submit</button>
-      </form>
+        </form>
+        </div>
       <div className="social">
                 <h1>Connect with us on</h1>
-                <a href="/" target="_blanck"><i className="fab fa-discord fa-3x"></i></a>
+                <a href="https://discord.gg/ZjwYdnKsKk" target="_blanck"><i className="fab fa-discord fa-3x"></i></a>
                 <a href="https://www.instagram.com/robodex__/" target="_blanck"><i className="fab fa-instagram fa-3x"></i></a>
                 <a href="/" target="_blanck"><i className="fab fa-whatsapp fa-3x" target="_blanck"></i></a>
             </div>

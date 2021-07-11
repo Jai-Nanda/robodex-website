@@ -34,9 +34,6 @@
   font-size: 25px;
   font-weight: 500;
 }
-#mail {
-  width: 1%;
-}
 .school_info b {
   color: #1b4cb8;
 }
@@ -49,7 +46,7 @@
   list-style: none;
 }
 .map > iframe {
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.1);
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
   border-radius: 50px;
   border: none;
   width: 470px;
@@ -62,13 +59,15 @@
   margin-bottom: 20px;
   text-align: center;
 }
+.contact_forms {
+  width: 700px;
+  margin: 0 auto;
+}
 form {
   padding-top: 1px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-left: 300px;
 }
 form input {
   border: none;
@@ -118,24 +117,76 @@ form button {
   margin-bottom: 50px;
 }
 form button:hover {
-  margin-left: 220px;
+  transform: scale(0.9);
 }
 .social i {
   color: #1b4cb8;
-  padding: 22px;
+  padding: 10px;
   transition: 0.3s ease-in;
   overflow: hidden;
   margin-left: 30px;
 }
 .social i:hover {
   color: rgb(44, 44, 44);
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 .social {
-  padding: 0 430px;
+  margin: 0 470px;
 }
 .social h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 960px) {
+  .contact_form {
+    flex-direction: column;
+  }
+  .school_info {
+    width: 350px;
+    margin-left: 20px;
+  }
+  .map > iframe {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+  }
+  .contact {
+    margin: 10px;
+  }
+  form {
+    margin: 10px;
+  }
+  form input {
+    width: 350px;
+  }
+  form textarea {
+    width: 350px;
+  }
+  form button {
+    margin-left: 120px;
+    width: 150px;
+  }
+  form button:hover {
+    margin-left: 140px;
+  }
+  .social {
+    width: 350px;
+    padding: 10px;
+    margin: 0;
+  }
+  .social i {
+    padding: 15px;
+    margin: 0;
+  }
+  .social h1 {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+  }
+  .contact_forms {
+    width: 350px;
+    margin-left: 15px;
+  }
 }

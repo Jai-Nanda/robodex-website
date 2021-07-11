@@ -17,14 +17,14 @@ const Events = () => {
         <h3 class="classe">For classes 6th to 8th</h3>
         <h4 class="state state-exc">Use  the  given  set  of  components  and  the  components you  gain  after answering  the  questions  in  the  first  round  to  create a  robot  for  the  second round.</h4>
         <button class="learn1"><a
-            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:29b99536-1eeb-4e9c-9bb1-c406cee5f2c8" target="_blanck" class="link_pdf">Learn More</a></button>
+            href="https://drive.google.com/file/d/16j3j7NdBfPxmVk3WjucOVQfxmvIBO8IK/view?usp=sharing" target="_blanck" class="link_pdf">Learn More</a></button>
       </div>
       <div class="event2">
         <h2 class="head2">Robothon</h2>
         <h3 class="classe">For classes 9th to 12th</h3>
         <h4 class="state">Come up with  innovative  solutions  to  solve  real  life problems/challenges using  robotics    and  present-day  technologies.  Prepare a  proper presentation  for  the  same.  Provide  all  the  details including  the  circuit, design  &  mechanism.</h4>
         <button class="learn2"><a
-            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:29b99536-1eeb-4e9c-9bb1-c406cee5f2c8" target="_blanck"
+            href="https://drive.google.com/file/d/16j3j7NdBfPxmVk3WjucOVQfxmvIBO8IK/view?usp=sharing" target="_blanck"
             class="link_pdf">Learn More</a></button>
       </div>
     </div>    

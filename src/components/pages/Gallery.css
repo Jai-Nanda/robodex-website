@@ -1,18 +1,28 @@
 .gallery {
   padding-top: 20px;
-  margin: 10px 20px;
+  margin: 10px 35px;
   overflow: hidden;
 }
 .gallery img {
   width: 400px;
-  padding: 6px;
+  padding: 4px;
   transition: 0.5s;
   height: 300px;
   cursor: pointer;
   border-radius: 20px;
   overflow: hidden;
+  object-fit: cover;
 }
 .gallery img:hover {
-  filter: brightness(85%);
+  filter: brightness(80%);
   transform: scale(1.02);
+}
+@media only screen and (max-width: 960px) {
+  .gallery {
+    margin-top: 80px;
+  }
+  .gallery img {
+    margin: 4px;
+    padding: 0;
+  }
 }

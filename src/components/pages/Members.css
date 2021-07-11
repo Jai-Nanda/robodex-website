@@ -126,6 +126,10 @@
   margin: 15px;
 }
 @media only screen and (max-width: 960px) {
+  .heading4 {
+    margin-top: 40px;
+    text-align: center;
+  }
   .member_container1 {
     flex-direction: column;
   }
@@ -133,12 +137,12 @@
     flex-direction: column;
   }
   .member_card1 {
-    width: 360px;
-    margin: 0;
+    width: 350px;
+    margin-left: 20px;
   }
   .member_card2 {
-    margin: 0;
-    width: 360px;
+    margin-left: 20px;
+    width: 350px;
   }
   .cardflex1 {
     margin: 0;
@@ -148,12 +152,24 @@
     flex-direction: column;
   }
   .card1 {
-    margin: 0;
-    width: 360px;
+    margin-left: 20px;
+    width: 350px;
   }
   #card_s {
-    margin: 0;
-    width: 360px;
-    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    margin-top: 10px;
+  }
+  .parv_b {
+    width: 350px;
+  }
+  .arnav_b {
+    width: 350px;
+  }
+  .saumil_b {
+    width: 350px;
+  }
+  .shounak_b {
+    width: 350px;
   }
 }

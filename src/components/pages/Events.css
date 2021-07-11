@@ -55,10 +55,10 @@
   margin-left: 130px;
 }
 .learn1:hover {
-  margin-left: 150px;
+  transform: scale(0.9);
 }
 .learn2:hover {
-  margin-left: 160px;
+  transform: scale(0.9);
 }
 .events {
   background-color: white;
@@ -107,9 +107,7 @@
   font-size: 22px;
   padding: 0 100px;
   text-align: center;
-  align-self: center;
   color: rgb(44, 44, 44);
-  justify-content: center;
   line-height: 32px;
 }
 .paragraph b {
@@ -124,20 +122,40 @@
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  font-weight: 900;
 }
 @media only screen and (max-width: 960px) {
   .paragraph,
   .salutation {
-    margin: 0;
-    width: 360px;
+    margin-left: 30px;
+    text-align: justify;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
   }
   .carding {
     flex-direction: column;
   }
   .event1 {
-    width: 360px;
+    margin: 10px;
+    width: 350px;
+    height: 400px;
   }
   .event2 {
+    width: 350px;
+    margin: 10px;
+    height: 400px;
     flex-direction: column;
+  }
+  .state {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .learn2 {
+    margin-left: 130px;
+  }
+  .learn2:hover {
+    margin-left: 150px;
   }
 }

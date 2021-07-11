@@ -107,6 +107,7 @@ const Members = () => {
         <h2 class="class">IX</h2>
         <p class="membername">Parth Tomar</p>
         <p class="membername">M.Sreevarshan</p>
+        <p class="membername">Sharanya Michael</p>
         <p class="membername">Arjun Kanwar</p>
       </div>
       <div class="card1">
@@ -120,7 +121,6 @@ const Members = () => {
       <div class="card1">
         <h2 class="class">VII</h2>
         <p class="membername">Raghoav Sharma</p>
-        <p class="membername">Sharanya Michael</p>
         <p class="membername">Shreyas Batra</p>
       </div>
     </div>

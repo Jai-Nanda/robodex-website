@@ -8,11 +8,12 @@
   font-family: "Montserrat", sans-serif;
   font-size: 65px;
   margin-top: 100px;
+  margin-left: 40px;
 }
 .description {
   position: absolute;
   top: 47%;
-  left: 14%;
+  left: 15%;
   font-family: "Montserrat", sans-serif;
   width: 30%;
   line-height: 30px;
@@ -30,17 +31,19 @@
   background-color: #1b4cb8;
   padding: 10px;
   width: 10%;
+  height: auto;
   border: none;
   outline: none;
   border-radius: 20px;
   position: absolute;
   left: 25%;
-  top: 62%;
+  top: 64%;
   transition: 0.6s ease-out;
   cursor: pointer;
 }
 .btn-register:hover {
-  margin-left: 20px;
+  /* margin-top: -5px; */
+  transform: scale(0.9);
 }
 .btn-register a {
   text-decoration: none;
@@ -51,30 +54,38 @@
 }
 @media screen and (max-width: 960px) {
   .homeflex {
-    max-width: 100%;
     margin: auto;
     flex-direction: column-reverse;
-    max-width: 100%;
   }
-  .home-img {
-    padding: 10px;
-    margin: 0;
+  .home_img {
+    margin-left: 20px;
+    margin-top: 50px;
     width: 350px;
   }
   .description {
-    top: 85%;
     text-align: justify;
     width: 350px;
-    margin: 0;
-    padding: 10px;
+    margin-left: 35px;
+    font-size: 18px;
+    margin-top: 20px;
+    position: static;
+    font-weight: 500;
   }
   .btn-register {
     width: 30%;
-    top: 75%;
+    position: static;
+    margin-top: 20px;
+    margin-left: 140px;
+  }
+  .btn-register:hover {
+    margin-left: 160px;
   }
   .heading1 {
-    margin: 0;
-    padding: 40px 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* padding: 40px 10px; */
     width: 350px;
+    font-size: 60px;
+    text-align: center;
   }
 }
