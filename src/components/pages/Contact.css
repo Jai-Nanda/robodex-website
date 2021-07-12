@@ -43,6 +43,7 @@
 .school_info li {
   margin-top: 10px;
   font-size: 22px;
+  font-weight: 600;
   list-style: none;
 }
 .map > iframe {
@@ -68,6 +69,8 @@ form {
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 form input {
   border: none;
@@ -78,6 +81,7 @@ form input {
   border: 2px solid rgb(58, 58, 58);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  width: 100%;
   margin-left: 13px;
 }
 form textarea {
@@ -85,6 +89,7 @@ form textarea {
   padding: 13px;
   font-size: 18px;
   outline: none;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   border-radius: 10px;
@@ -119,6 +124,12 @@ form button {
 form button:hover {
   transform: scale(0.9);
 }
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .social i {
   color: #1b4cb8;
   padding: 10px;
@@ -130,9 +141,6 @@ form button:hover {
   color: rgb(44, 44, 44);
   transform: scale(0.9);
 }
-.social {
-  margin: 0 470px;
-}
 .social h1 {
   text-align: center;
   font-size: 30px;
@@ -140,40 +148,47 @@ form button:hover {
 }
 @media only screen and (max-width: 960px) {
   .contact_form {
+    margin: auto;
     flex-direction: column;
   }
   .school_info {
     width: 350px;
-    margin-left: 20px;
+    margin: auto;
   }
   .map > iframe {
     width: 350px;
     height: 450px;
-    margin-left: 20px;
+    margin: auto;
   }
   .contact {
-    margin: 10px;
+    margin: auto;
+    max-width: 100%;
   }
   form {
-    margin: 10px;
+    max-width: 100%;
+    margin: auto;
   }
   form input {
-    width: 350px;
+    margin: auto;
+    width: 70%;
   }
   form textarea {
-    width: 350px;
+    margin: auto;
+    max-width: 70%;
   }
   form button {
-    margin-left: 120px;
-    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
   }
-  form button:hover {
-    margin-left: 140px;
+  form label {
+    max-width: 100%;
+    margin: auto;
   }
   .social {
     width: 350px;
     padding: 10px;
-    margin: 0;
+    margin: auto;
   }
   .social i {
     padding: 15px;
@@ -186,7 +201,10 @@ form button:hover {
     margin: 0;
   }
   .contact_forms {
-    width: 350px;
-    margin-left: 15px;
+    max-width: 100%;
+    margin: auto;
+  }
+  #mail {
+    font-size: 16px;
   }
 }

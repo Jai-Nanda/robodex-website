@@ -8,7 +8,7 @@ import pritesh from './imgs/pritesh.jpg'
 import animesh from './imgs/animesh.jpg'
 import raghav_g from './imgs/raghav_g.jpg'
 import raghav_b from './imgs/raghav_b.jpg'
-import vedant from './imgs/vedant.jpg'
+import vedant from './imgs/vedant2.jpg'
 import jai from './imgs/jai_1.jpg'
 const Members = () => {
     return (
@@ -79,6 +79,7 @@ const Members = () => {
           <p class="position">Logistics Head</p>
           </div>
         </div>
+        <div className="seniorflex">
         <div class="card1" id="card_s">
         <h2 class="class">Senior Members</h2>
         <p class="membername">Moulik Bharija</p>
@@ -101,7 +102,8 @@ const Members = () => {
         <p class="membername">Keshav Sethi</p>
         <p class="membername">Anant Choudhary</p>
       </div>
-    </div>
+          </div>
+          </div>
     <div class="cardflex2">
       <div class="card1">
         <h2 class="class">IX</h2>

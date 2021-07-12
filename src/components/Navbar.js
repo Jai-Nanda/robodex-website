@@ -33,9 +33,13 @@ const Navbar = () => {
                 className='nav-links' onClick={closeMobileMenu}
             >Members</Link></li>
             <li><Link
-                to='/Register'
+                to='/RegisterIntra'
                 className='nav-links' onClick={closeMobileMenu}
-            >Register</Link></li>
+            >Register for Intra</Link></li>
+            <li><Link
+                to='/RegisterInter'
+                className='nav-links' onClick={closeMobileMenu}
+            >Register for Inter</Link></li>
                 <li><Link
                 to='/Contact'
                 className='nav-links' onClick={closeMobileMenu}

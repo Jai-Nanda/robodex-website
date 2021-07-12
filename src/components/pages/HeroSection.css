@@ -1,84 +1,110 @@
+section {
+  max-height: 100%;
+  max-width: 50%;
+  margin: auto;
+}
 .homeflex {
   display: flex;
   justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+}
+.textflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
 }
 .heading1 {
   color: #1b4cb8;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   font-size: 65px;
-  margin-top: 100px;
-  margin-left: 40px;
+  margin-top: 80px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .description {
-  position: absolute;
-  top: 47%;
-  left: 15%;
   font-family: "Montserrat", sans-serif;
-  width: 30%;
+  max-width: 100%;
   line-height: 30px;
-  text-align: justify;
+  text-align: center;
   font-weight: 600;
-  color: rgb(71, 71, 71);
+  color: rgb(44, 44, 44);
   font-size: 20px;
+  margin-top: 15px;
 }
 .home_img {
-  width: 520px;
+  width: 500px;
   padding: 0;
   margin-left: 50px;
 }
 .btn-register {
   background-color: #1b4cb8;
   padding: 10px;
-  width: 10%;
-  height: auto;
+  min-width: 190px;
+  min-height: 40px;
+  max-width: 190px;
+  max-width: 40px;
   border: none;
+  margin-top: 20px;
   outline: none;
   border-radius: 20px;
-  position: absolute;
-  left: 25%;
-  top: 64%;
   transition: 0.6s ease-out;
   cursor: pointer;
+  margin-left: 15px;
 }
 .btn-register:hover {
-  /* margin-top: -5px; */
   transform: scale(0.9);
 }
 .btn-register a {
   text-decoration: none;
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .homeflex {
+    width: 100%;
     margin: auto;
     flex-direction: column-reverse;
   }
   .home_img {
-    margin-left: 20px;
     margin-top: 50px;
-    width: 350px;
+    width: 360px;
+    margin-left: 0;
+  }
+  .textflex {
+    max-width: 100%;
+    margin: auto;
+  }
+  section {
+    margin: auto;
+    max-width: 70%;
   }
   .description {
-    text-align: justify;
-    width: 350px;
-    margin-left: 35px;
-    font-size: 18px;
+    min-width: 100%;
+    font-size: 20px;
     margin-top: 20px;
-    position: static;
-    font-weight: 500;
+    margin: auto;
+    font-weight: 600;
   }
   .btn-register {
-    width: 30%;
+    width: 180px;
+    margin-bottom: 20px;
     position: static;
     margin-top: 20px;
-    margin-left: 140px;
   }
-  .btn-register:hover {
-    margin-left: 160px;
+  .buttons {
+    flex-direction: column;
+    margin: auto;
   }
   .heading1 {
     margin-top: 40px;
